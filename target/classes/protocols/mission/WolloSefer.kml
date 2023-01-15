@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>WolloSefer.kml</name>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aa00</color>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aa00</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>WolloSefer</name>
+		<description>Addis Ababa Wollo Sefer</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				38.77441782043003,8.993697321092673,0 38.77407021705925,8.993154811128134,0 38.77385682184197,8.992620735751538,0 38.77362867738002,8.99214336194369,0 38.77335694389903,8.991567687995101,0 38.77314345302202,8.991038585117368,0 38.77382836354131,8.990956704133529,0 38.77470506499964,8.990990748666368,0 38.77554645573647,8.991192415361706,0 38.77607467957342,8.99151354767899,0 38.77653523780111,8.991932512817293,0 38.77639630487123,8.992578404968238,0 38.77623189194102,8.992993201156921,0 38.77573964663669,8.993198439454648,0 38.77531587453323,8.993436132579996,0 38.77490126636006,8.993658694293186,0 38.77489530221693,8.993952687350147,0 38.77475992769837,8.994296593406343,0 38.77445612414533,8.994245877981486,0 38.77434213995299,8.993799293493119,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Around_Ours_Cafe.kml</name>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aa00</color>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aa00</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>Path1</name>
+		<description>Around ours cafe</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				37.38790926848667,11.59378362478285,0 37.38765847792467,11.59378246509397,0 37.38740994037689,11.59377753633032,0 37.38714180552525,11.59379125706521,0 37.38686012620924,11.59378598713511,0 37.38685618159612,11.59349226159269,0 37.38684532719596,11.59322620688798,0 37.38684445117433,11.59294318741681,0 37.38718623273386,11.59292783461402,0 37.38745734038555,11.59292501603536,0 37.38768353242706,11.59291872242524,0 37.38788741065476,11.59292653505121,0 37.38794792709033,11.59316683397455,0 37.3879464389186,11.59336846044922,0 37.38796056982861,11.59360897568627,0 37.38793697279552,11.59378385815057,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>
