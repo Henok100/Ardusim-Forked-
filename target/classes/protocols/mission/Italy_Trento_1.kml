@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Italy_Trento_1.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Placemark>
+		<name>Italy_1</name>
+		<description>UAV realistic path in Italy-Trento 1</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				11.12070785558929,46.07351073277356,0 11.12044730105966,46.07311266154534,0 11.12017065513843,46.07268036610968,0 11.12011883997942,46.07240791114657,0 11.12070792352439,46.07228836775681,0 11.1212714763226,46.07211161752825,0 11.1215636026493,46.07202766999028,0 11.12186576524385,46.07252280842438,0 11.12209369639009,46.07290195569887,0 11.12200505852746,46.07311638096824,0 11.12156157408485,46.07326933933824,0 11.12118535385002,46.07338717611682,0 11.12075614403455,46.07356176858212,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>
