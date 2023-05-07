@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Small_City(Foios).kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Placemark>
+		<name>Small_City(Foios)</name>
+		<description>Small_City(Foios) Spain</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-6.885132108986102,40.28906909898723,0 -6.885367882481149,40.28893841784613,0 -6.885687175807048,40.2888508270345,0 -6.886077665882922,40.28878509301544,0 -6.886464209002355,40.28873145708542,0 -6.886770710950348,40.28871425160422,0 -6.887050917915948,40.28873769863103,0 -6.887419156286554,40.28871034234768,0 -6.887708538366942,40.28872786155313,0 -6.888075045333688,40.2886713560672,0 -6.888389525125196,40.28858452533839,0 -6.888774798759671,40.28855908471167,0 -6.889210060130837,40.28848914779866,0 -6.88963951653001,40.28838000786823,0 -6.889874785615123,40.2883215380324,0 -6.890257435916038,40.28824586975201,0 -6.890619265132957,40.28814771812846,0 -6.891029496605409,40.28804395241307,0 -6.891393462159504,40.28794441354263,0 -6.891667473124572,40.28788173503362,0 -6.891940922407699,40.28779015476839,0 -6.892310371204584,40.28770443718471,0 -6.892679358170546,40.28762988009307,0 -6.892998804119389,40.2875064319281,0 -6.893415049568658,40.28727064421356,0 -6.893648770466393,40.28704963893853,0 -6.893979087299968,40.28679551796478,0 -6.894269325475012,40.2865684234145,0 -6.894646831614571,40.28632436152552,0 -6.894943155849869,40.2861208906941,0 -6.895349305950401,40.28588388471989,0 -6.895904615177243,40.28572308992399,0 -6.896434133026341,40.28560041175618,0 -6.896790162281919,40.28555655075446,0 -6.897189224241346,40.28551336057156,0 -6.897532561159082,40.285395283661,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>
