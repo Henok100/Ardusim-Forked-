@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Barcelona(Slant Movement).kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Placemark>
+		<name>Barcelona(Slant Movement)</name>
+		<description>Simple Path</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				2.165473234400761,41.37065303687379,0 2.165450523912211,41.37077742653373,0 2.165381111065081,41.37107074715295,0 2.165308317516412,41.37130647623663,0 2.165264414195913,41.37140946807371,0 2.165204475688736,41.37156887433439,0 2.165031711015908,41.3718159052104,0 2.164938125291458,41.37194045662987,0 2.164807601022605,41.37231590466771,0 2.164754392578314,41.37244163785139,0 2.164582292790613,41.37275669154117,0 2.164522415951586,41.37291811804441,0 2.164395588885437,41.37319801538647,0 2.164395737387548,41.373192848423,0 2.164278447252344,41.37343925727976,0 2.164207920442831,41.37358815863961,0 2.16401411513427,41.37374672277052,0 2.16396097205817,41.37391409070397,0 2.163900747438319,41.37405042946404,0 2.163865023677389,41.37413163539118,0 2.163777007111694,41.37435632251739,0 2.163388738118197,41.37462236934677,0 2.163358369090744,41.37485427175476,0 2.163320578939376,41.375200576549,0 2.163248309620087,41.37530994563976,0 2.163149284109516,41.37537815872404,0 2.163014985784335,41.37531956142779,0 2.162902056481406,41.37519093686498,0 2.162772695032833,41.37530323065759,0 2.162667916855758,41.37570055993463,0 2.162492165220653,41.37590318088213,0 2.16231712444426,41.376134282523,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>
