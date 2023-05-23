@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>MainPath.kml</name>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Placemark>
+		<name>NewPath</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				2.142112640148472,41.38072863593437,0 2.14100659589133,41.38171721873067,0 2.139816729386486,41.38273705769861,0 2.138867857032956,41.38356774952635,0 2.138022920756131,41.38430329914057,0 2.137106325199376,41.38523897968035,0 2.136213465474821,41.38616400140084,0 2.135083782098337,41.38691071957444,0 2.134445058663155,41.38786839439086,0 2.133785605918104,41.3886462411221,0 2.133449180396583,41.38897045385365,0 2.132699080537017,41.38985597554518,0 2.131896431505598,41.39057220740448,0 2.131274661773896,41.39120298918655,0 2.130544129208976,41.391940866025,0 2.129969542995387,41.3924138128521,0 2.129288827808469,41.39299808996856,0 2.128651530257277,41.39356135488072,0 2.128091223168351,41.39399197545747,0 2.12753001160529,41.39444110545687,0 2.126802152686873,41.39504829199668,0 2.125874422017486,41.39567732072493,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>
